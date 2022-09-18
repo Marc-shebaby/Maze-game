@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> Login</title>
+        <link rel="stylesheet" href="loginstyle.css">
+        <script src="login.js"></script>
+    </head> 
+    <body>
+        <div class="container">
+            <form class="form" id="login" onsubmit="return check()" action="game.html" target="_blank">
+                <h1 class="form__title">Login</h1>
+               
+                <div class="form__input-group">
+                    <input type="text" class="form__input" autofocus placeholder="Username" id="name">
+                    
+                </div>
+                <div class="form__input-group">
+                    <input type="password" id="pass" class="form__input" autofocus placeholder="Password">
+                    
+                </div>
+                <button class="form__button" type="submit">Continue</button>
+                
+                <p class="form__text">
+                    <a class="form__link" href="index.html" id="linkCreateAccount">Don't have an account? Create account</a>
+                </p>
+            </form>
+            
+    </body>
+</html>
